@@ -1,0 +1,30 @@
+$font-family-base: "Montserrat Alternates";
+
+@import "bootstrap/scss/bootstrap";
+@import "@fontsource/montserrat-alternates";
+
+// @import "bootstrap-icons/font/bootstrap-icons";
+
+:root {
+  // --bs-primary: #ffbe2e;
+  // --bs-primary-rgb: 255, 190, 46;
+}
+// $primary: ;
+header {
+  background-color: #ffbe2e;
+}
+body {
+  // background-color: $primary;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.btn-hover-danger:hover,
+.btn-hover-danger:focus,
+.btn-hover-danger:active,
+.btn-hover-danger.active {
+  color: $body-color;
+  background-color: $danger;
+}
