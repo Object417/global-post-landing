@@ -1,2 +1,19 @@
+/* Bootstrap */
 @import url("bootstrap/dist/css/bootstrap.min.css");
 @import url("bootstrap-icons/font/bootstrap-icons.css");
+
+/* Latin font */
+@import url("@fontsource/montserrat-alternates/latin-400.css");
+@import url("@fontsource/montserrat-alternates/latin-500.css");
+@import url("@fontsource/montserrat-alternates/latin-700.css");
+
+/* Cyrillic font */
+@import url("@fontsource/montserrat-alternates/cyrillic-400.css");
+@import url("@fontsource/montserrat-alternates/cyrillic-500.css");
+@import url("@fontsource/montserrat-alternates/cyrillic-700.css");
+
+:root {
+  --bs-primary: #ffbe2e;
+  --bs-primary-rgb: 255, 190, 46;
+  --bs-body-font-family: "Montserrat Alternates", var(--bs-font-sans-serif);
+}
