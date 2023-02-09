@@ -1,35 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Global Post Landing</title>
+    <link rel="icon" type="image/png" href="logo.svg" />
 
-    <!-- <link rel="stylesheet" href="node_modules/bootstrap/scss/bootstrap.scss" /> -->
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap-icons/font/bootstrap-icons.scss"
-    />
-    <link rel="icon" type="image/png" href="./logo.svg" />
-    <script type="module" src="./src/main.js"></script>
+    <script type="module" src="src/main.js"></script>
   </head>
 
   <body class="min-vh-100">
-    <header class="">
+    <header>
       <nav class="navbar navbar-expand-lg">
-        <div class="container-lg">
+        <div class="container">
           <a href="" class="navbar-brand">
             <img src="logo.png" alt="Global Post" class="img-fluid" />
           </a>
 
           <button
-            type="button"
             class="navbar-toggler"
+            type="button"
             data-bs-toggle="collapse"
-            data-bs-target="navbarNav"
+            data-bs-target="#navbarNav"
           >
-            <span class="navbar-toggle-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="navbar-collapse collapse" id="navbarNav">
@@ -51,22 +46,13 @@
             <a href="" class="btn btn-light rounded-pill fw-bold">
               Відстежити посилку
             </a>
+
+            <div class="vstack fw-bold">
+              <span class="navbar-text p-0">(044) 501-15-61</span>
+              <span class="navbar-text p-0">(050) 477-05-05</span>
+              <span class="navbar-text p-0">(067) 622-10-23</span>
+            </div>
           </div>
-
-          <!-- <span class="navbar-text">
-            <i class="bi bi-search"></i>
-          </span>
-          <span class="navbar-text">
-            <i class="bi bi-person"></i>
-          </span> -->
-
-          <div class="vstack fw-bold">
-            <span class="navbar-text p-0">(044) 501-15-61</span>
-            <span class="navbar-text p-0">(050) 477-05-05</span>
-            <span class="navbar-text p-0">(067) 622-10-23</span>
-          </div>
-
-          <!-- <i class="bi bi-cart"></i> -->
         </div>
       </nav>
 
