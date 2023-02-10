@@ -1,21 +1,21 @@
 {
   "name": "global-post-landing",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "start": "vite --open --mode development",
-    "dev": "vite --mode development",
-    "build": "vite build --mode production",
-    "preview": "vite preview --mode production"
-  },
-  "devDependencies": {
-    "prettier": "^2.8.4",
-    "vite": "^4.1.0"
+    "start": "vite --open --mode=development",
+    "dev": "vite --mode=development",
+    "build": "vite build --mode=production",
+    "preview": "vite preview --mode=production"
   },
   "dependencies": {
     "@fontsource/montserrat-alternates": "^4.5.11",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "vite": "^4.1.0"
   }
 }
