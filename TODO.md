@@ -17,5 +17,6 @@ Ordered by priority
 - [ ] Set up margins and paddings as in the design
 - [ ] Develop section with tabs
 - [ ] Add icons to header
+- [ ] Fix cards' images doesn't have same height
 - [ ] Fix form input border and hover colors
 - [ ] Fix buttons hover color
