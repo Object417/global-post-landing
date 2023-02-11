@@ -13,7 +13,63 @@
 @import url("@fontsource/montserrat-alternates/cyrillic-700.css");
 
 :root {
+  /* colors */
   --bs-primary: #ffbe2e;
   --bs-primary-rgb: 255, 190, 46;
+  --bs-secondary: #fff8e9;
+  --bs-secondary-rgb: 255, 248, 233;
+
+  /* font */
   --bs-body-font-family: "Montserrat Alternates", var(--bs-font-sans-serif);
+}
+
+.py-4rem {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.px-6rem {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.px-8rem {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.ratio-3x2 {
+  --bs-aspect-ratio: 66.66667%;
+}
+
+main > section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: calc(1.375rem + 1.5vw);
+  font-weight: bold;
+  text-align: center;
+}
+@media (min-width: 1200px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+.card {
+  --bs-card-inner-border-radius: calc(3rem - 1px);
+
+  height: 100%;
+  border: none;
+  border-radius: 3rem;
+  box-shadow: 0 0 1rem rgba(var(--bs-primary-rgb), 0.25);
+}
+
+.ratio > img {
+  object-fit: cover;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: var(--bs-border-radius-pill);
 }
